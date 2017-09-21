@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>HiDef</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Fonts/font.spritefont</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Shaders/PostProcessing/BrightPass.fx</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Shaders/PostProcessing/LightSourceMask.fx</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Shaders/PostProcessing/LigthRays.fx</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Shaders/PostProcessing/SceneBlend.fx</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/Backgrounds/BGForeGround_1_1.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/Backgrounds/BGForeGround_1_2.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/Backgrounds/BGForeGround_1_3.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/flare.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/flare2.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/flare3.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/flare4.png</File>
+    <File>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Textures/MouseMask.png</File>
+  </SourceFiles>
+</SourceFileCollection>

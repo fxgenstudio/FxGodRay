@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/Shaders/PostProcessing/LightSourceMask.fx</SourceFile>
+  <SourceTime>2017-09-19T22:17:05.0804123+02:00</SourceTime>
+  <DestFile>C:/Projects/MonoGame/FxGodRay2/FxGodRay2/Content/bin/DesktopGL/Shaders/PostProcessing/LightSourceMask.xnb</DestFile>
+  <DestTime>2017-09-19T22:43:23.7124068+02:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies>
+    <string>C:\Projects\MonoGame\FxGodRay2\FxGodRay2\Content\Shaders\PostProcessing\PPVertexShader.fxh</string>
+  </Dependencies>
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
