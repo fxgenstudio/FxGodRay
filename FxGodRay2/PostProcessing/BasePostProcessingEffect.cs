@@ -61,8 +61,8 @@ namespace Randomchaos2DGodRays
 
                     postProcesses[p].BackBuffer = lastScene;
 
-                    Game.GraphicsDevice.Textures[0] = postProcesses[p].BackBuffer;
-                    postProcesses[p].Draw(gameTime);
+                    
+                    postProcesses[p].Draw(gameTime, postProcesses[p].BackBuffer);
 
                     Game.GraphicsDevice.SetRenderTarget(null);
 
