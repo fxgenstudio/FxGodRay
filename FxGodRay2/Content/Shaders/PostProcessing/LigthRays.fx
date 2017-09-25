@@ -14,7 +14,10 @@ float Decay = .95f;
 float Weight = 1.0f;
 float Exposure = .15f;
 
-sampler2D Scene: register(s0){
+texture scene;
+sampler2D Scene
+{
+	Texture = (scene);
 	AddressU = Clamp;
 	AddressV = Clamp;
 };

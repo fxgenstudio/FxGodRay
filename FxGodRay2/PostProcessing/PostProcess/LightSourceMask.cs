@@ -25,7 +25,7 @@ namespace Randomchaos2DGodRays
             this.lightSize = lightSize;
         }
 
-        public override void Draw(GameTime gameTime)
+        public override void Draw(GameTime gameTime, Texture2D backBuffer)
         {
 
             if (effect == null)
@@ -44,7 +44,7 @@ namespace Randomchaos2DGodRays
             effect.Parameters["lightScreenPosition"].SetValue(lighScreenSourcePos);
 
             // Set Params.
-            base.Draw(gameTime);
+            base.Draw(gameTime, backBuffer);
 
         }
     }

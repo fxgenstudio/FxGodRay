@@ -10,7 +10,10 @@ float2 halfPixel;
 
 float SunSize = 1500;
 
-sampler2D Scene: register(s0){
+texture scene;
+sampler2D Scene
+{
+	Texture = (scene);
 	AddressU = Clamp;
 	AddressV = Clamp;
 };

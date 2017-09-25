@@ -36,7 +36,7 @@ namespace Randomchaos2DGodRays
 
         }
 
-        public virtual void Draw(GameTime gameTime)
+        public virtual void Draw(GameTime gameTime, Texture2D backBuffer)
         {
             if (Enabled)
             {
@@ -46,6 +46,7 @@ namespace Randomchaos2DGodRays
                     sq.Initialize();
                 }
 
+                effect.Parameters["scene"].SetValue(backBuffer);
                 effect.CurrentTechnique.Passes[0].Apply();
                 sq.Draw();
             }
